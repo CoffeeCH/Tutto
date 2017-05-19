@@ -2,7 +2,6 @@ import processing.core.PApplet;
 
 public class UsingProcessing extends PApplet {
 
-	
 	Spielplan spielplan;
 
 	public static void main(String[] args) {

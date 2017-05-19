@@ -3,20 +3,18 @@ import processing.core.PApplet;
 public class Spielplan extends WuerfelRahmen {
 	Spielplan(PApplet p) {
 		super(p);
-		
-		 mySpielerverwalter = new Spielerverwalter(parent);
-		 mySpielzustand = new Spielzustand(parent);
-	}
 
-	
+		mySpielerverwalter = new Spielerverwalter(parent);
+		mySpielzustand = new Spielzustand(parent);
+	}
 
 	/**
 	 * Ein Spielplan koordiniert ein Spielerverwalter und ein Spielzustand.
 	 */
 
 	// Weitere Elemente des Spielplans:
-	 Spielzustand mySpielzustand;
-	 Spielerverwalter mySpielerverwalter;
+	Spielzustand mySpielzustand;
+	Spielerverwalter mySpielerverwalter;
 
 	/**
 	 * führt den Würfel befehl aus.
@@ -47,7 +45,7 @@ public class Spielplan extends WuerfelRahmen {
 		drawAllWuerfel();
 		zeigeAnleitung();
 		if (mySpielzustand.istGewonnen()) {
-			parent.background(255,204,229);
+			parent.background(255, 204, 229);
 			mySpielerverwalter.drawEnde();
 		}
 	}
