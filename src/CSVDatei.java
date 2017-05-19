@@ -7,7 +7,7 @@ import processing.core.PApplet;
  * A CSVDatei saves and loads the forms from and in a CSV-file.
  * 
  * @author Philippe Krüttli
- * ...
+ * .....
  * 
  */
 public class CSVDatei {
