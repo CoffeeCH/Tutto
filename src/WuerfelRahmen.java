@@ -31,8 +31,8 @@ class WuerfelRahmen {
    
     if (parent.height < w) w = parent.height;
     int s = (w - (anzS + 1)* wuerfelAbstand) / anzS;
-    int f = (w -(s+wuerfelAbstand) * anzL) /2;
-    if (anzL == 0) f = wuerfelAbstand;
+    //int f = (w -(s+wuerfelAbstand) * anzL) /2;
+    //if (anzL == 0) f = wuerfelAbstand;
 
     for (int j = 0; j < anzZ; j++) {
       for (int i = 0; i < anzS; i++) {
