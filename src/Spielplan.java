@@ -45,7 +45,7 @@ public class Spielplan extends WuerfelRahmen {
 		drawAllWuerfel();
 		zeigeAnleitung();
 		if (mySpielzustand.istGewonnen()) {
-			parent.background(255, 204, 229);
+			parent.background(255);
 			mySpielerverwalter.drawEnde();
 		}
 	}
@@ -83,7 +83,7 @@ public class Spielplan extends WuerfelRahmen {
 	 * überprüft ob der aktuelle Spieler 6000 Punkte erreicht hat.
 	 */
 	void checkSpielEnde() {
-		if (mySpielerverwalter.actSpielerHatErreicht(6000)) {
+		if (mySpielerverwalter.actSpielerHatErreicht(150)) {
 			mySpielzustand.setGewonnen();
 		}
 	}
