@@ -36,7 +36,7 @@ class Spielzustand {
 	void hilfeAnzeigen() {
 		if (help == true) {
 			parent.textSize(15);
-			parent.fill(255, 0, 0);
+			parent.fill(255,204,229);
 			parent.text("w = würfel", 150, 750);
 			parent.text("f = Spielzug beenden", 260, 750);
 			parent.text("n = neu starten", 450, 750);
