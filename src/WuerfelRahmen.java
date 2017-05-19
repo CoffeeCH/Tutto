@@ -39,8 +39,8 @@ class WuerfelRahmen {
         int x = (wuerfelAbstand + s) * i + wuerfelAbstand;
         int y = (wuerfelAbstand +s) * j + wuerfelAbstand;
         if (anzL != 0 && j == anzZ -1) {
-          if (i >= anzL)break;
-          x = (wuerfelAbstand + s) * i + f;
+          if (i >= anzL) break;
+          //x = (wuerfelAbstand + s) * i + f;
         }
         wuerfelListe.add(new Wuerfel(x, y, s, parent));
       }
