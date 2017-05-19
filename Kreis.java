@@ -10,7 +10,7 @@ import processing.core.PApplet;
 
 public class Kreis extends SimpleForm {
 	PApplet parent; // The Parent PApplet that we will render ourselves onto
-	//Neuer Kommentar
+	//Ganz neuer Kommentar
 	String name = "kreis";
 
 	Kreis(PApplet p) {
