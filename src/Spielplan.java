@@ -47,7 +47,7 @@ public class Spielplan extends WuerfelRahmen {
 		drawAllWuerfel();
 		zeigeAnleitung();
 		if (mySpielzustand.istGewonnen()) {
-			parent.background(255, 0, 0);
+			parent.background(255,204,229);
 			mySpielerverwalter.drawEnde();
 		}
 	}

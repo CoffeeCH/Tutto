@@ -38,7 +38,7 @@ class Wuerfel {
     }
     parent.rect(xposRec, yposRec, hoeheRec, breiteRec);
 
-    parent.fill(255,0,0);
+    parent.fill(255,204,229);
 
     if (augenAnzahl == 1 || augenAnzahl==5 || augenAnzahl==3) {
     	parent.ellipse(xposRec + breiteRec /2, yposRec + hoeheRec /2, r, r);

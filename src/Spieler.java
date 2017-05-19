@@ -22,8 +22,8 @@ class Spieler {
    */
   void myDraw() {
     // System.out.println(name);
-    parent.textSize(20);
-    parent.text(name+" Punktzahl "+ spielerPunkte, 50, 450+25*spielerNummer);
+    parent.textSize(17);
+    parent.text(name+" Punktzahl "+ spielerPunkte, 50, 650+25*spielerNummer);
   }
   
 /**

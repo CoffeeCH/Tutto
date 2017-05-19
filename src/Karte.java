@@ -16,7 +16,7 @@ public class Karte {
 	
 	
 	  int xpos = 50;  //anzeigeXPos
-	  int ypos = 600;  //anzeigeYPos
+	  int ypos = 500;  //anzeigeYPos
 	  int wert;
 	  Kartentyp typ;
 	  /**
@@ -47,14 +47,14 @@ public class Karte {
 	   *  zeigt die Karten an
 	   */
 	  void anzeigen() {
-	    parent.fill(255,0,0);
-	    parent.textSize(25);
+	    parent.fill(255,204,229);
+	    parent.textSize(30);
 	    switch (typ) {      
 	    case BONUS:
 	      parent.text("Aktuelle Karte: " + typ + " " + wert, xpos, ypos);
 	      break;
 	    case STRASSE:
-	      parent.text("Aktuelle Karte: " + typ + " Bonus 2000", xpos, ypos);
+	      parent.text("Aktuelle Karte: " + typ , xpos, ypos);
 	      break;
 	    case KLEEBLATT:
 	      parent.text("Aktuelle Karte: " + typ + " 2x Tutto", xpos, ypos);
@@ -63,13 +63,13 @@ public class Karte {
 	      parent.text("Aktuelle Karte: " + typ + " x2", xpos, ypos);
 	      break;
 	    case FEUERWERK:
-	      parent.text("Aktuelle Karte: " + typ + " Kein Verlust", xpos, ypos);
+	      parent.text("Aktuelle Karte: " + typ , xpos, ypos);
 	      break;
 	    case PLUS_MINUS:
 	      parent.text("Aktuelle Karte: " + typ + " +/- 1000", xpos, ypos);
 	      break;
 	    case STOP:
-	      parent.text("Aktuelle Karte: " + typ + " Spielzug beendet", xpos, ypos);
+	      parent.text("Aktuelle Karte: " + typ , xpos, ypos);
 	      break;
 	    }
 	  }

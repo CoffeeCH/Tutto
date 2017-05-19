@@ -32,8 +32,8 @@ class Spielerverwalter {
    */
   void drawAllSpielerUndKarte() {
     parent.textSize(25);
-    parent.fill(255,0,0);
-    parent.text("aktueller Spieler "+ (actSpieler.spielerNummer+1) + " : " + actPunkte, 50, 520);
+    parent.fill(255,204,229);
+    parent.text("aktueller Spieler "+ (actSpieler.spielerNummer+1) + " : " + actPunkte, 50, 580);
     for (Spieler sp : spielerListe) {
       sp.myDraw();
     }
@@ -77,11 +77,11 @@ class Spielerverwalter {
    *  zeichnet der Zustand Ende.
    */
   void drawEnde() {
-	  parent.fill(255,0,0);
+	  parent.fill(255,204,229);
     parent.textSize(35);
     parent.text("Spieler: "+ (actSpieler.spielerNummer+1) + " hat gewonnen!!!", 55, 400);
     for (Spieler sp : spielerListe) {
-    	parent.fill(255,0,0);
+    	parent.fill(255,204,229);
     	parent. textSize(25);
     	parent.text(sp.name+" Punktzahl "+ sp.spielerPunkte, 150, 500+70*sp.spielerNummer);
     	parent.text("n = neu starten", 50, 750);
