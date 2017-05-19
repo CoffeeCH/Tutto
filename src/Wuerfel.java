@@ -1,5 +1,5 @@
 import processing.core.PApplet;
-
+//irgendtwas geändert
 /**
  *  Ein Würfel verwaltet seine position und seine grösse.
  *  Ein Würfel überprüft ob er blockiert ist und ob er gezählt wird.
