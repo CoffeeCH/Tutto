@@ -8,7 +8,7 @@ import processing.core.PApplet;
  * 
  */
 
-//Neuer Kommentar
+//Ganz neuer Kommentar			
 
 public class Kante extends MultipointForm {
 	PApplet parent; // The Parent PApplet that we will render ourselves onto
