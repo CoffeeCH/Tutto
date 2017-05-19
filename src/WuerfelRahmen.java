@@ -40,7 +40,7 @@ class WuerfelRahmen {
         int y = (wuerfelAbstand +s) * j + wuerfelAbstand;
         if (anzL != 0 && j == anzZ -1) {
           if (i >= anzL) break;
-          //x = (wuerfelAbstand + s) * i + f;
+          //x = (wuerfelAbstand + s) * i + f; // HLU 19.5.17 line commented
         }
         wuerfelListe.add(new Wuerfel(x, y, s, parent));
       }
