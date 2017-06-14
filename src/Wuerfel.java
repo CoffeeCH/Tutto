@@ -9,7 +9,7 @@ class Wuerfel {
 	PApplet parent;
 
 	int xposRec;
-	int yposRec;
+	int yposRec; //!
 	int hoeheRec;
 	int breiteRec;
 	int r; // augenRadius
